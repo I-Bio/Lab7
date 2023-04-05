@@ -1,3 +1,7 @@
+div{
+    display: flex;
+    justify-content: center;
+}
 #СС:hover {
       animation: rotate 2s linear infinite, loader 2s linear infinite;
       cursor: pointer;
