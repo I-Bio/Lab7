@@ -1,0 +1,41 @@
+#СС:hover {
+      animation: rotate 2s linear infinite, loader 2s linear infinite;
+      cursor: pointer;
+    }
+#VVV:hover {
+      animation: rotateBig 2s linear infinite, loader 2s linear infinite;
+      cursor: pointer;
+    }
+@keyframes rotateBig {
+      0% {
+        stroke-dashoffset: 324;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+}
+@keyframes rotate {
+      0% {
+        stroke-dashoffset: 251.2;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+}
+@keyframes loader {
+  0% {
+    fill: #ff6600;
+  }
+  25% {
+    fill: #b7ff93;
+  }
+  50% {
+    fill: #d1d638;
+  }
+  75% {
+    fill: #d1cee0;
+  }
+  100% {
+    fill: #591d48;
+  }
+}
